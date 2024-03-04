@@ -4,9 +4,6 @@ import torch
 from diffusion import Diffusion
 from utils import get_id_frame, get_audio_emb, save_video
 
-import os
-os.environ['KMP_DUPLICATE_LIB_OK']='True'
-os.environ['HYDRA_FULL_ERROR'] = '1'
 
 @hydra.main(config_path='.', config_name='config_crema', version_base='1.1')
 def main(args):

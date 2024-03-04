@@ -1,0 +1,27 @@
+name: diffused_heads_env
+channels:
+  - conda-forge
+dependencies:
+  - requests
+  - jupyter
+  - jupyterlab
+  - loguru
+  - nbformat
+  - nb_conda_kernels
+  - xlrd
+  - lxml
+  - tqdm
+  - python-dotenv
+  - pip
+  - sox
+  - pip:
+    - ffmpeg-python
+    - hydra-core
+    - numpy
+    - opencv-python
+    - Pillow
+    - scipy
+    - torch
+    - torchaudio
+    - torchvision
+    - tqdm

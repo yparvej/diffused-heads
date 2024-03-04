@@ -9,15 +9,13 @@ checkpoint: /Users/yunusparvej/workpackages/ws_content_creation/resources-diffus
 encoder_checkpoint: /Users/yunusparvej/workpackages/ws_content_creation/resources-diffused-heads/checkpoints/audio_encoder.pt
 
 # /path/to/id_frame - can be .mp4 or an image
-#id_frame: /path/to/id_frame.mp4
-id_frame: /Users/yunusparvej/workpackages/ws_content_creation/resources-diffused-heads/Yunus_PS_Photo.jpg
+id_frame: /path/to/id_frame.mp4
 
 # /path/to/audio - can be anything supported by torchaudio (e.g. .wav, .mp3, .mp4)
-#saudio: /path/to/audio.wav
-audio: /Users/yunusparvej/workpackages/ws_content_creation/resources-diffused-heads/f2bjrop1.0.wav
+audio: /path/to/audio.wav
 
 # /path/to/output_video.mp4
-output: /Users/yunusparvej/workpackages/ws_content_creation/resources-diffused-heads/generated_output/output_video.mp4
+output: /path/to/output_video.mp4
 
 # use GPU - highly recommended
 gpu: true
